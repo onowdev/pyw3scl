@@ -10,7 +10,7 @@ str() - constructs a string from a wide variety of data types, including strings
 Example :
 """
 
-print("integer")
+print("integer cating")
 a = int(9)
 b = int(7.8)
 c = int("90")
@@ -21,3 +21,17 @@ print(b)
 print(type(b))
 print(c)
 print(type(c))
+
+print("Float Casting")
+d = float(9.89)
+e = float(8)
+f = float("898")
+g = float("9.89")
+print(d)
+print(type(d))
+print(e)
+print(type(e))
+print(f)
+print(type(f))
+print(g)
+print(type(g))
