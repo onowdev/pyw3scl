@@ -31,3 +31,12 @@ print(type(h))
 print(type(i))
 print(type(k))
 print(type(l))
+
+print("Complex number")
+m = 5 + 7j
+n = 9J
+o = -78j
+
+print(type(m))
+print(type(n))
+print(type(o))
