@@ -35,3 +35,13 @@ print(f)
 print(type(f))
 print(g)
 print(type(g))
+
+print("string casting")
+
+k = str("90abc")
+l = str(9.89)
+m = str(789)
+
+print(type(k))
+print(type(l))
+print(type(m))
