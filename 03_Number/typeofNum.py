@@ -18,3 +18,16 @@ f = 789
 print(type(d))
 print(type(e))
 print(type(f))
+
+print("Create Floating point Number")
+
+g = 4.555
+h = 56.90
+i = 78.00
+k = 35e5
+l = 12E4
+print(type(g))
+print(type(h))
+print(type(i))
+print(type(k))
+print(type(l))
