@@ -47,3 +47,9 @@ print(len(d))
 # Check String To check if a certain phrase or character is present in a string, we can use the keyword in.
 txt = "practice make perfect"
 print("perfect" in txt)
+
+# Use it in an if statement:
+
+txt2 = "The best things in life are Free!"
+if "free" in txt2:
+    print("Ya, 'free' is present.")
