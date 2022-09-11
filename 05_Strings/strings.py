@@ -43,3 +43,7 @@ for x in "Banana":
 
 d = "Hello_world_In_Magelang"
 print(len(d))
+
+# Check String To check if a certain phrase or character is present in a string, we can use the keyword in.
+txt = "practice make perfect"
+print("perfect" in txt)
