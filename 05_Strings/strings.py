@@ -38,3 +38,8 @@ print(c[7])
 
 for x in "Banana":
     print(x)
+
+# String Length To get the length of a string, use the len() function.
+
+d = "Hello_world_In_Magelang"
+print(len(d))
