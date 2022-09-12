@@ -20,3 +20,7 @@ print(c.strip())
 # Replace String
 d = "Hello, world!"
 print(d.replace("e", "A"))
+
+# Split String 
+e = "Hello, World python Programming"
+print(e.split(","))
