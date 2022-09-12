@@ -8,3 +8,13 @@ When you compare two values, the expression is evaluated and Python returns the 
 print(10 < 9)
 print(10 == 7)
 print(10 > 9)
+
+#  run a condition in an if statement, Python returns True or False:
+
+a = 300
+b = 90
+
+if b > a:
+    print("90 lebih besar dari 300")
+else:
+    print("90 TIDAK lebih besar dari 300")
