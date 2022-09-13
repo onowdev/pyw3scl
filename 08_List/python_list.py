@@ -16,3 +16,8 @@ print(thisList)
 print("Access list items")
 print(thisList[1])
 print(thisList[0])
+
+print("Change Value in list")
+thisList[1] = "Blackcurrant"
+
+print(thisList)
