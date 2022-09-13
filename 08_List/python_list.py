@@ -12,3 +12,7 @@ print("Create List")
 
 thisList = ["Apple", "Banana", "Cherry"]
 print(thisList)
+
+print("Access list items")
+print(thisList[1])
+print(thisList[0])
