@@ -47,3 +47,17 @@ print(x)
 
 x%=3
 print(x)
+
+print("=====================")
+print("Comparision Operators")
+print("=====================")
+
+c = 900
+d = 825
+
+print("Equal is", c==d)
+print("Not Equal is", c != d)
+print("Greater Than", c > d)
+print("Less than", c < d)
+print("Greater than or equal to",c >= d)
+print("Less Than or Equal to", c<=d)
