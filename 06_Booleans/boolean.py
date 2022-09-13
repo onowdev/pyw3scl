@@ -35,3 +35,8 @@ if myFunction():
     print("Yes!")
 else:
     print("NO!")
+
+print("=============================")
+
+x = 900
+print(isinstance(x, int))
