@@ -27,3 +27,11 @@ else:
 
 print(bool("Hello"))
 print(bool(89))
+
+def myFunction() :
+    return True
+
+if myFunction():
+    print("Yes!")
+else:
+    print("NO!")
