@@ -61,3 +61,12 @@ print("Greater Than", c > d)
 print("Less than", c < d)
 print("Greater than or equal to",c >= d)
 print("Less Than or Equal to", c<=d)
+
+print("=================")
+print("Logical Operators")
+print("=================")
+
+number1 = 9
+print(number1 > 8 and number1 < 80)
+print(number1 > 4 or number1 < 70)
+print(not(number1 > 5 and number1 < 80))
