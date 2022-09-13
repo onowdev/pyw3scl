@@ -13,9 +13,9 @@ Python divides the operators in the following groups:
     > Bitwise operators
 
 """
-
-print("Aritmatic Operator")
-
+print("====================")
+print("Arithmetic Operators")
+print("====================")
 a = 9
 b = 8
 print("Addition", a+b)
@@ -25,3 +25,25 @@ print("Division", a / b)
 print("Modulus", a % b)
 print("Exponentiation", a ** 3)
 print("Floor division", a // b)
+
+print("====================")
+print("Assignment Operators")
+print("====================")
+
+x = 9
+print(x)
+
+x+= 8
+print(x)
+
+x-= 7
+print(x)
+
+x*=2
+print(x)
+
+x/=2
+print(x)
+
+x%=3
+print(x)
