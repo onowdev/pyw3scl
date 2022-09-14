@@ -46,3 +46,8 @@ thisList4 = ["apple","banana","cherry","duku"]
 thisList4.append("EDAMAME")
 print(thisList4)
 print("==============")
+
+print("Add item in specified list")
+thisList5 = ["apple","banana","cherry","duku"]
+thisList5.insert(1, "ORANGE")
+print(thisList5)
