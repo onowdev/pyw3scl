@@ -70,3 +70,8 @@ print("Emty This List")
 print(thisList2)
 thisList2.clear()
 print(thisList2)
+print("===============")
+print("Using Constructor to make list")
+
+thisList6 = list(("America","Brunai","China","Denmark","Europe","Finland"))
+print(thisList6)
