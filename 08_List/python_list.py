@@ -35,6 +35,14 @@ thisList2 = ["apple","banana","cherry","duku"]
 if "banana" in thisList2:
     print("Yes, 'apple' is in the fruits list")
 print("==============")
+
 print("Length in List")
 thisList3 = ["apple","banana","cherry","duku"]
 print(len(thisList3))
+print("==============")
+
+print("Add item in end of List")
+thisList4 = ["apple","banana","cherry","duku"]
+thisList4.append("EDAMAME")
+print(thisList4)
+print("==============")
