@@ -66,3 +66,7 @@ print("Remove specified item in list")
 print(thisList3)
 del thisList3[2]
 print(thisList3)
+print("Emty This List")
+print(thisList2)
+thisList2.clear()
+print(thisList2)
