@@ -35,3 +35,6 @@ thisList2 = ["apple","banana","cherry","duku"]
 if "banana" in thisList2:
     print("Yes, 'apple' is in the fruits list")
 print("==============")
+print("Length in List")
+thisList3 = ["apple","banana","cherry","duku"]
+print(len(thisList3))
