@@ -28,3 +28,12 @@ print(myTuple1)
 thistuple = ("apple","banana","cherry","duku")
 for x in thistuple:
     print(x)
+print("===============")
+print("check item in tupple")
+print(thistuple)
+if "apple" in thistuple:
+    print("Yes 'apple' is in the fruit tuple")
+
+print("Tuple Length")
+print(thistuple)
+print(len(thistuple))
