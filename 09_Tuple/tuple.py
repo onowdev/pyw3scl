@@ -37,3 +37,9 @@ if "apple" in thistuple:
 print("Tuple Length")
 print(thistuple)
 print(len(thistuple))
+
+print("Del a Tuple")
+thistuple2 = ("america","Belgium","China","Denmark","Europe")
+print(thistuple2)
+del thistuple2
+print(thistuple2)
