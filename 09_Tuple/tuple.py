@@ -12,3 +12,7 @@ Tuples are written with round brackets ().
 myTuple = ("apple","banana","cherry")
 
 print(myTuple)
+
+#Access Tuple
+myTuple1 =("america","bahama","cuba","dominico","Euro")
+print(myTuple1[3])
