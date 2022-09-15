@@ -42,4 +42,9 @@ print("Del a Tuple")
 thistuple2 = ("america","Belgium","China","Denmark","Europe")
 print(thistuple2)
 del thistuple2
-print(thistuple2)
+# print(thistuple2)
+
+# Using Constructor for Tuple
+print("Using Constructor for Tuple")
+thistuple3 = tuple(("apple","banana","cherry","duku"))
+print(thistuple3)
