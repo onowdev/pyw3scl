@@ -19,7 +19,12 @@ print(myTuple1[3])
 
 #Change Value of Tuple
 print(myTuple1)
-myTuple1[0] = "Armenia"
+# myTuple1[0] = "Armenia"
 
-print(myTuple1) #output Error
+# print(myTuple1) #output Error
 # Unchangeable : Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+
+#Loop tuple
+thistuple = ("apple","banana","cherry","duku")
+for x in thistuple:
+    print(x)
