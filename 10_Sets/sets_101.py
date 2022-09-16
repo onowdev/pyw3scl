@@ -12,3 +12,6 @@ Set items are unordered, unchangeable, and do not allow duplicate values.
 print("Create Set")
 tipedata_set = {"america","belanda","china"}
 print(tipedata_set)
+
+print("Get_length_of_a_set_TypeDate")
+print(len(tipedata_set))
