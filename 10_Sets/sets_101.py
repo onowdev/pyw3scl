@@ -27,3 +27,7 @@ print(type(set_b))
 set_c = {True,False,True,False}
 print(set_c)
 print(type(set_c))
+
+print("A set with strings, integers and boolean values:")
+set_1 = {"abc", 123, True, 90, "Score"}
+print(set_1)
