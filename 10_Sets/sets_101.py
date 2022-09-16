@@ -31,3 +31,7 @@ print(type(set_c))
 print("A set with strings, integers and boolean values:")
 set_1 = {"abc", 123, True, 90, "Score"}
 print(set_1)
+
+print("Using the set() constructor to make a set:")
+thisset = set(("apem","blewah","cotot"))
+print(thisset)
