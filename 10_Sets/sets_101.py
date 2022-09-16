@@ -15,3 +15,15 @@ print(tipedata_set)
 
 print("Get_length_of_a_set_TypeDate")
 print(len(tipedata_set))
+
+print("Set items can be of any data type:")
+print("String, int and boolean data types:")
+set_a = {"apple","banana","cherry"}
+print(set_a)
+print(type(set_a))
+set_b = {1,7,9,3}
+print(set_b)
+print(type(set_b))
+set_c = {True,False,True,False}
+print(set_c)
+print(type(set_c))
