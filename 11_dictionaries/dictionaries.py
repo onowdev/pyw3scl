@@ -24,3 +24,7 @@ thisdict = {
     "year" : "1962"
 }
 print(thisdict)
+
+print("Dictionary Length")
+
+print(len(thisdict))
