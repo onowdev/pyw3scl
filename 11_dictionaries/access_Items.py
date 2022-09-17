@@ -12,3 +12,11 @@ thisdict = {
 x = thisdict["model"]
 print(thisdict)
 print("the car is" , x)
+
+"""
+Get Keys
+The keys() method will return a list of all the keys in the dictionary.
+
+"""
+a = thisdict.keys()
+print(a)
