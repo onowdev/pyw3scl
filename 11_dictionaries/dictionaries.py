@@ -28,3 +28,12 @@ print(thisdict)
 print("Dictionary Length")
 
 print(len(thisdict))
+
+print("Dictionary Items - Data Types The values in dictionary items can be of any data type:")
+
+thisdict1 = {
+    "brand" : "Mobil SMK",
+    "electric" : True,
+    "year" : 1965,
+    "colors" : ["red", "white", "blue"]
+}
