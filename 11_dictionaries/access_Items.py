@@ -20,3 +20,17 @@ The keys() method will return a list of all the keys in the dictionary.
 """
 a = thisdict.keys()
 print(a)
+
+print("====================")
+print("Add a new item to the original dictionary")
+car = {
+    "brand" : "Ford",
+    "model" : "Mustang",
+    "year" : 1960
+}
+b = car.keys()
+print(a) # before the Change
+
+car ["color"] = "Black"
+
+print(b) #After the Change
