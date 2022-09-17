@@ -14,3 +14,13 @@ thisdict = {
 }
 print(thisdict)
 print(thisdict["model"])
+
+# Changeable Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
+# Duplicates Not Allowed Dictionaries cannot have two items with the same key:
+thisdict = {
+    "brand" : "ford",
+    "model" : "Mustang",
+    "year" : "2022",
+    "year" : "1962"
+}
+print(thisdict)
