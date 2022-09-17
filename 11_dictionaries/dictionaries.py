@@ -37,3 +37,5 @@ thisdict1 = {
     "year" : 1965,
     "colors" : ["red", "white", "blue"]
 }
+print("thisdict1 :",thisdict1)
+print("the type data of 'thisdict1' ", type(thisdict1))
