@@ -49,3 +49,13 @@ thisdict2 = {
 }
 for x in thisdict2:
     print(thisdict2[x])
+
+print("using value Function to return value in dictionary")
+
+thisdict3 = {
+    "brand" : "toyota",
+    "year" : "2022",
+    "model" : "lexus"
+}
+for x in thisdict3.values():
+    print(x)
