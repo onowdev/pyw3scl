@@ -39,3 +39,13 @@ thisdict1 = {
 }
 print("thisdict1 :",thisdict1)
 print("the type data of 'thisdict1' ", type(thisdict1))
+
+print("Print All value one by one in dictionary data type")
+
+thisdict2 = {
+    "brand" : "toyota",
+    "year" : "2022",
+    "model" : "landcruiser"
+}
+for x in thisdict2:
+    print(thisdict2[x])
