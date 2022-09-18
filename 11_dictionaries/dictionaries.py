@@ -59,3 +59,12 @@ thisdict3 = {
 }
 for x in thisdict3.values():
     print(x)
+print("using loop in dictionary")
+
+thisdict4 = {
+    "brand" : "Mercedes Benz",
+    "year" : "2022",
+    "model" : "GLS 500"
+}
+for x, y in thisdict4.items():
+    print(x,y)
