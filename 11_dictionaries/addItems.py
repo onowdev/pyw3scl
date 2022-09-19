@@ -13,3 +13,8 @@ print(thisdict1)
 thisdict1["transmision"] = "AWD"
 print("after add items")
 print(thisdict1)
+
+print("================")
+print("Update Dictionary")
+thisdict1.update({"colour":"blue"})
+print(thisdict1)
