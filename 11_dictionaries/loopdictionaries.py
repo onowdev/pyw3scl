@@ -14,3 +14,8 @@ print(thisdict1)
 
 for x in thisdict1:
     print(x)
+
+print("Print all values in the dictionary, one by one:")
+
+for x in thisdict1:
+    print(thisdict1[x])
