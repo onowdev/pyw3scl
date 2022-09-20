@@ -9,5 +9,11 @@ thisdict = {
     "model" : "Mustang",
     "year" : 1965
 }
+print("Make a copy of a dictionary with the copy() method:")
 mydict = thisdict.copy()
 print(mydict)
+
+print("Make a copy of a dictionary with the dict() function:")
+
+mydict1 = dict(thisdict)
+print(mydict1)
