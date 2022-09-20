@@ -19,3 +19,7 @@ print("Print all values in the dictionary, one by one:")
 
 for x in thisdict1:
     print(thisdict1[x])
+print("You can also use the values() method to return values of a dictionary:")
+
+for x in thisdict1.values():
+    print(x)
