@@ -23,3 +23,13 @@ print("You can also use the values() method to return values of a dictionary:")
 
 for x in thisdict1.values():
     print(x)
+
+print("You can use the keys() method to return the keys of a dictionary:")
+
+for x in thisdict1.keys():
+    print(x)
+
+print("Loop through both keys and values, by using the items() method:")
+
+for x,y in thisdict1.items():
+    print(x,y)
