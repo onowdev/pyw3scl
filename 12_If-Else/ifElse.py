@@ -73,3 +73,13 @@ k = 500
 
 if i > j and k > i:
     print("Booth Condition are True")
+
+print("====================")
+print("Or The or keyword is a logical operator, and is used to combine conditional statements")
+
+a = 200
+b = 33
+c = 500
+
+if a > b or a > c:
+    print("At Least one of the conditions is True")
