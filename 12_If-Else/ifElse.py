@@ -39,8 +39,13 @@ c = 900
 d = 600
 
 if c > d :
-    print("Nilai c labih dari d")
+    print("Nilai c lebih dari d")
 elif c == d:
     print("nilai c = nilai d")
 else:
     print("d lebih besar dari c")
+
+print("===================")
+print("Short Hand If If you have only one statement to execute, you can put it on the same line as the if statement.")
+
+if 8000 > 900:print("8000 itu lebih besar dari 900")
