@@ -56,3 +56,10 @@ print("Short Hand If ... Else If you have only one statement to execute, one for
 e = 90
 f = 80
 print("Benar") if e > f else print("Salah")
+
+print("====================")
+print("If Else three condition")
+
+g = 90000
+h = 1000
+print("benar") if g > h else print("Sama Nilainya") if g == h else print("Salah")
