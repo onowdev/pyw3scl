@@ -32,3 +32,15 @@ if a > b:
     print("lebih besar nilai a")
 elif a == b:
     print("Nilai A = nilai B")
+
+print("=======================")
+
+c = 900
+d = 600
+
+if c > d :
+    print("Nilai c labih dari d")
+elif c == d:
+    print("nilai c = nilai d")
+else:
+    print("d lebih besar dari c")
