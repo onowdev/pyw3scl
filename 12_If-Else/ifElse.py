@@ -63,3 +63,13 @@ print("If Else three condition")
 g = 90000
 h = 1000
 print("benar") if g > h else print("Sama Nilainya") if g == h else print("Salah")
+
+print("====================")
+print("And The and keyword is a logical operator, and is used to combine conditional statements:")
+
+i = 200
+j = 33
+k = 500
+
+if i > j and k > i:
+    print("Booth Condition are True")
