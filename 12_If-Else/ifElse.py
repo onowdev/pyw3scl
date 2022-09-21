@@ -15,9 +15,20 @@ An "if statement" is written by using the if keyword.
 
 """
 
-print("if else")
+print("if")
 a = 900
 b = 800
 
 if a > b :
     print("a greather than b")
+
+print("==============")
+
+print("Elif The elif keyword is pythons way of saying if the previous conditions were not true, then try this condition")
+
+a = 44
+b = 44
+if a > b:
+    print("lebih besar nilai a")
+elif a == b:
+    print("Nilai A = nilai B")
