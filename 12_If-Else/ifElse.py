@@ -49,3 +49,10 @@ print("===================")
 print("Short Hand If If you have only one statement to execute, you can put it on the same line as the if statement.")
 
 if 8000 > 900:print("8000 itu lebih besar dari 900")
+
+print("===================")
+print("Short Hand If ... Else If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:")
+
+e = 90
+f = 80
+print("Benar") if e > f else print("Salah")
