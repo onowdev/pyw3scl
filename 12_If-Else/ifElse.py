@@ -87,6 +87,9 @@ if a > b or a > c:
 print("=================")
 print("Nested If")
 
+# Nested If
+# You can have if statements inside if statements, this is called nested if statements.
+
 x = 80
 
 if x > 10:
@@ -95,3 +98,14 @@ if x > 10:
         print("Also Above 50")
     else:
         print("But Not above 50")
+
+print("===================")
+print("Pass statement")
+
+# The pass Statement
+# if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
+a = 90
+b = 80
+if a > b:
+    pass
