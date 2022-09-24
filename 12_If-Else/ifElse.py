@@ -83,3 +83,15 @@ c = 500
 
 if a > b or a > c:
     print("At Least one of the conditions is True")
+
+print("=================")
+print("Nested If")
+
+x = 80
+
+if x > 10:
+    print("Above ten,")
+    if x > 50:
+        print("Also Above 50")
+    else:
+        print("But Not above 50")
