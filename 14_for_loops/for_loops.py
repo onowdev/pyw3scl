@@ -30,3 +30,7 @@ for x in Angka:
     if x == 3:
         continue
     print(x)
+print("Range Function")
+
+for x in range(9):
+    print(x)
