@@ -10,3 +10,8 @@ With the for loop we can execute a set of statements, once for each item in a li
 fruits = ["apple","banana","cherry"]
 for x in fruits:
     print(x)
+
+print("Looping Through A String")
+
+for x in "Banana":
+    print(x)
