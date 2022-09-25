@@ -38,3 +38,7 @@ for x in range(9):
 print("Range Function V2")
 for x in range (3,9):
     print(x)
+
+print("Range in Loops dengan kelipatan berbatas")
+for x in range(2, 30, 5):
+    print(x)
