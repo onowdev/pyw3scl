@@ -34,3 +34,7 @@ print("Range Function")
 
 for x in range(9):
     print(x)
+
+print("Range Function V2")
+for x in range (3,9):
+    print(x)
