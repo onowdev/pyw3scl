@@ -22,3 +22,11 @@ for x in country:
     print(x)
     if x == "denmark":
         break
+
+print("The continue Statement")
+
+Angka = [1,2,3,4,5,6,7,8,9]
+for x in Angka:
+    if x == 3:
+        continue
+    print(x)
