@@ -15,3 +15,10 @@ print("Looping Through A String")
 
 for x in "Banana":
     print(x)
+
+print("The Break Statement")
+country = ["america","belanda","china","denmark","europe"]
+for x in country:
+    print(x)
+    if x == "denmark":
+        break
