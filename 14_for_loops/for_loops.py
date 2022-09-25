@@ -42,3 +42,9 @@ for x in range (3,9):
 print("Range in Loops dengan kelipatan berbatas")
 for x in range(2, 30, 5):
     print(x)
+
+print("Else in For Loop")
+for x in range(9):
+    print(x)
+else:
+    print("Finally finished!")
