@@ -20,3 +20,10 @@ function1("H. Abdurahman Wachid")
 function1("Ibu. Megawati soekarno Putri")
 function1("DR. Susilo Bambang Yudhoyono")
 function1("Ir. Joko Widodo")
+
+print("Number of Arguments")
+
+def my_function(fname, lname):
+    print(fname + " " + lname)
+
+my_function("Agus", "Sugiono")
