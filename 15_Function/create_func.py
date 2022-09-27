@@ -37,3 +37,12 @@ def myFunction2(*kids):
     print("The Youngest child is" + kids[2])
 
 myFunction2("Emil","tobhias","Linus")
+
+print("Keyword Arguments")
+# You can also send arguments with the key = value syntax.
+# This way the order of the arguments does not matter.
+
+def myfunction3(child1, child2, child3):
+    print("The Youngest Child is" + child3)
+
+myfunction3(child1="Emil", child2="Thobias", child3="Linus")
