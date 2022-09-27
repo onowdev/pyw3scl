@@ -46,3 +46,11 @@ def myfunction3(child1, child2, child3):
     print("The Youngest Child is" + child3)
 
 myfunction3(child1="Emil", child2="Thobias", child3="Linus")
+
+print("==============")
+print("Arbitrary Keyword Arguments, **kwargs")
+
+def myfunction4(**kid):
+    print("His last name is" +  kid["lname"])
+
+myfunction4(fname = "Toni", lname = "Blair")
