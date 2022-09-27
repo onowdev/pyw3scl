@@ -54,3 +54,17 @@ def myfunction4(**kid):
     print("His last name is" +  kid["lname"])
 
 myfunction4(fname = "Toni", lname = "Blair")
+
+print("=============")
+print("Default Parameter Value")
+
+# The following example shows how to use a default parameter value.
+# If we call the function without argument, it uses the default value:
+
+def my_function2(country = "Norway"):
+    print("I am from" + country)
+
+my_function2("Sweden")
+my_function2("India")
+my_function2()
+my_function2("Brazil")
