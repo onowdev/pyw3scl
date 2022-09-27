@@ -27,3 +27,13 @@ def my_function(fname, lname):
     print(fname + " " + lname)
 
 my_function("Agus", "Sugiono")
+
+print("Arbitrary Arguments, *args")
+
+# If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
+# This way the function will receive a tuple of arguments, and can access the items accordingly:
+
+def myFunction2(*kids):
+    print("The Youngest child is" + kids[2])
+
+myFunction2("Emil","tobhias","Linus")
