@@ -1,3 +1,6 @@
+from xxlimited import foo
+
+
 def myFunction():
     print("Hello this My Function")
 
@@ -68,3 +71,14 @@ my_function2("Sweden")
 my_function2("India")
 my_function2()
 my_function2("Brazil")
+
+print("=============================")
+print("Passing a list as an Argument")
+
+def myFunction5(food):
+    for x in food:
+        print(x)
+
+fruits = ["apple","banana","cherry"]
+
+myFunction5(fruits)
