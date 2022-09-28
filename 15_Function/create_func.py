@@ -82,3 +82,13 @@ def myFunction5(food):
 fruits = ["apple","banana","cherry"]
 
 myFunction5(fruits)
+
+print("============")
+print("Return Value")
+
+def myfunc1(x):
+    return 5 * x
+
+print(myfunc1(4))
+print(myfunc1(7))
+print(myfunc1(9))
