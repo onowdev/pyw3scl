@@ -92,3 +92,9 @@ def myfunc1(x):
 print(myfunc1(4))
 print(myfunc1(7))
 print(myfunc1(9))
+
+print("==================")
+print("The Past Statement")
+
+def myfunct2():
+    pass
