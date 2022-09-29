@@ -4,9 +4,6 @@ A lambda function can take any number of arguments, but can only have one expres
 """
 # lamda arguments : expression
 
-from regex import B
-
-
 x = lambda a : a + 10
 print(x(9))
 
@@ -19,3 +16,11 @@ print(x(5, 6))
 
 x = lambda a, b, c : a + b + c
 print(x(4,5,6))
+
+#  same function definition to make a function
+
+def myFunc():
+    return lambda a : a * n
+
+mytripler = myFunc(3)
+print(mytripler(20))
