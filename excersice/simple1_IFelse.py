@@ -9,3 +9,15 @@ for x in range(1500,2701):
     if (x%7==0) and (x%5==0):
         nl.append(str(x))
 print(','.join(nl))
+
+print("Simple IF Else")
+# DEclaration Variable
+
+Nilai_1 = 90
+Nilai_2 = 80
+Nilai_3 = 90
+
+Total = Nilai_1 + Nilai_2 + Nilai_3
+
+if (Total > 200):
+    print("Selamat Anda Lulus Tes ini")
