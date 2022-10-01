@@ -21,3 +21,6 @@ Total = Nilai_1 + Nilai_2 + Nilai_3
 
 if (Total > 200):
     print("Selamat Anda Lulus Tes ini")
+
+if (Nilai_2 < Nilai_1):
+    print("Ayo Coba Lagi , Tingkatkan Nilainya")
