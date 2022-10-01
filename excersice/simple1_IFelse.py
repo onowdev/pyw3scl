@@ -24,3 +24,12 @@ if (Total > 200):
 
 if (Nilai_2 < Nilai_1):
     print("Ayo Coba Lagi , Tingkatkan Nilainya")
+
+print("==================")
+
+Points_team_A = 90
+Points_team_B = 80
+Points_team_C = 90
+
+if(Points_team_A > Points_team_B and Points_team_C):
+    print("Team A menang atas tim B dan tim C")
