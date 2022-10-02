@@ -42,3 +42,20 @@ elif(Points_team_B == 99):
     print("Tim A memenangkan Laga")
 else:
     print("Tim C memenangkan Laga")
+
+print("Nested IF in Python")
+"""
+if (condition):
+    if(condition):
+        if(condition):
+            Indented block of decision to make
+"""
+
+teamAPoints = 99
+teamBPoints = 89
+teamCPoints = 88
+
+if (teamAPoints > teamBPoints):
+    if (teamAPoints >= teamBPoints):
+        if (teamAPoints >= teamCPoints):
+            print("Team A won the league")
