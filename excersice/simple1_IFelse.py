@@ -33,3 +33,12 @@ Points_team_C = 90
 
 if(Points_team_A > Points_team_B and Points_team_C):
     print("Team A menang atas tim B dan tim C")
+
+print("How To Use Elif Keyword")
+
+if (Points_team_A == 80):
+    print("Tim B tidak memenangkan Laga")
+elif(Points_team_B == 99):
+    print("Tim A memenangkan Laga")
+else:
+    print("Tim C memenangkan Laga")
