@@ -59,3 +59,5 @@ if (teamAPoints > teamBPoints):
     if (teamAPoints >= teamBPoints):
         if (teamAPoints >= teamCPoints):
             print("Team A won the league")
+
+print("Sedang Banyak Pikiran")
