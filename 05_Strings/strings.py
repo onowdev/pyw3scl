@@ -53,3 +53,8 @@ print("perfect" in txt)
 txt2 = "The best things in life are Free!"
 if "free" in txt2:
     print("Ya, 'free' is present.")
+
+#string method
+
+str1 = "FREECODECAMP IS COOL"
+print(str1.lower())
