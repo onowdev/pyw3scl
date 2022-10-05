@@ -38,3 +38,17 @@ cities = ['Washington', 'Ottawa', 'London', 'Canberra']
 
 for x, y in zip(countries, cities):
   print('The capital of {} is {}.'.format(x, y))
+
+# Checking for Anagrams
+
+from collections import Counter
+def is_anagram(s1, s2):
+  return Counter(s1) == Counter(s2)
+
+s1 = 'listen'
+s2 = 'silent'
+s3 = 'runner'
+s4 = 'neuron'
+
+print('\'listen\' is an anagram of \'silent\' -> {}'.format(is_anagram(s1, s2)))
+print('\'runner\' is an anagram of \'neuron\' -> {}'.format(is_anagram(s3, s4)))
