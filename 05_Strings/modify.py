@@ -31,3 +31,10 @@ s1 = 'The theory of data science is of the utmost importance.'
 s2 = 'practice'
 
 print('The new sentence: {}'.format(s1.replace('theory', s2)))
+
+# Combining the Output of Multiple Lists
+countries = ['USA', 'Canada', 'UK', 'Australia']
+cities = ['Washington', 'Ottawa', 'London', 'Canberra']
+
+for x, y in zip(countries, cities):
+  print('The capital of {} is {}.'.format(x, y))
