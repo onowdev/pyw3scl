@@ -24,3 +24,10 @@ print(d.replace("e", "A"))
 # Split String 
 e = "Hello, World python Programming"
 print(e.split(","))
+
+#Replacing Sub Strings
+
+s1 = 'The theory of data science is of the utmost importance.'
+s2 = 'practice'
+
+print('The new sentence: {}'.format(s1.replace('theory', s2)))
