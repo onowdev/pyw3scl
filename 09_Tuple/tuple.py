@@ -66,3 +66,17 @@ newNumberTuple = sorted(myNumberTuple)
 
 print(newTuple) # ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'w', 'x', 'z')
 print(newNumberTuple) # (1, 2, 3, 4, 5, 6, 7)
+
+print("========================")
+
+def isB(letter):
+    if(letter == "b"):
+        return 1
+    else:
+        return 0
+
+myTuple = ("b", "c", "b", 5, "f", "b", 2, "z", "a", "x")
+
+newTuple = sorted(myTuple, key=isB, reverse=True)
+
+print(newTuple) # ['b', 'b', 'b', 'c', 5, 'f', 2, 'z', 'a', 'x']
