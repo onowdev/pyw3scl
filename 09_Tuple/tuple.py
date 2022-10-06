@@ -55,3 +55,14 @@ tupleOne = ("one", "two")
 tupleTwo = ("three", "four")
 tupleThree = tupleOne + tupleTwo
 print(tupleThree) # ("one", "two", "three", "four")
+
+#Sorting Tuple
+
+myTuple =  ("a", "c", "e", "b", "f", "d", "g", "z", "w", "x")
+myNumberTuple = (1, 3, 5, 2, 7, 4, 6)
+
+newTuple = sorted(myTuple)
+newNumberTuple = sorted(myNumberTuple)
+
+print(newTuple) # ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'w', 'x', 'z')
+print(newNumberTuple) # (1, 2, 3, 4, 5, 6, 7)
