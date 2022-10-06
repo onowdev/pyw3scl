@@ -48,3 +48,10 @@ del thistuple2
 print("Using Constructor for Tuple")
 thistuple3 = tuple(("apple","banana","cherry","duku"))
 print(thistuple3)
+
+#Combile Tuple
+
+tupleOne = ("one", "two")
+tupleTwo = ("three", "four")
+tupleThree = tupleOne + tupleTwo
+print(tupleThree) # ("one", "two", "three", "four")
