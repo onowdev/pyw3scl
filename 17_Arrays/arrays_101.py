@@ -10,3 +10,8 @@ print(cars[0])
 #length arrray
 
 print(len(cars))
+
+#looping array
+
+for x in cars:
+    print(x)
