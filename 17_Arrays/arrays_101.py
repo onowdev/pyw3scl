@@ -15,3 +15,8 @@ print(len(cars))
 
 for x in cars:
     print(x)
+
+# adding arrays element
+
+cars.append("Honda")
+print(cars)
