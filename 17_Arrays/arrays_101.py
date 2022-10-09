@@ -6,3 +6,7 @@ print(cars)
 
 #accesing array
 print(cars[0])
+
+#length arrray
+
+print(len(cars))
