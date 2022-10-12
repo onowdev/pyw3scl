@@ -1,1 +1,4 @@
 A/B Testing with Python
+
+
+fokus ke python data analisis, database baru ke Web dev atau web dev sambil jalan
