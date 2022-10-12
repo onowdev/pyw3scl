@@ -107,3 +107,5 @@ print("Access element is: ", b[1])
 
 # accessing element of array
 print("Access element is: ", b[2])
+
+print("Hello World")
