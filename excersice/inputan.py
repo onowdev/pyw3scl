@@ -10,3 +10,4 @@ data = input('Berapa usia anda ?')
 usia = int(data)
 
 print("Sebentar lagi usia anda adalah", usia + 1)
+print("selamat")
